@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    animation-name: animate;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    background-size: cover;
+}
+.container-fluid
+{
+    width: 400px;
+    margin: 60px auto;
+    padding: 10px;
+    
+}
+@keyframes animate{
+    0%, 100%{
+        background-image: url("Weather3.jpeg");
+    }
+    25%{
+        background-image: url("Weather4.jpg");
+    }
+    50%{
+        background-image: url("Weather5.jpeg");
+    }
+    75%{
+        background-image: url("Weather3.jpeg");
+    }
+}
+.inputs 
+{
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    box-shadow: 5px;
+}
+.inputs input[type="text"] 
+{
+    height: 40px;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    margin-right:4px ;
+}
+.inputs input[type="submit"] 
+{
+    height: 3rem;
+    width: 6rem;
+    background-color: rgba(white, 0, 0, 0.7);
+    font-weight: bold;
+    color: black;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 3);
+}
+.display 
+{
+    text-align: center;
+    width: 400px;
+    color: #16a864;
+    border-radius: 20px;
+}
+.wrapper 
+{
+    margin: 0 9rem;
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+
+.wrapper h2
+{
+    padding: 5px 0;
+    text-align: center;
+    color: wheat;
+    font-family: sans-serif;
+}
+.wrapper p
+{
+    margin:20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: wheat;
+    font-size:23px;
+}
+.wrapper h2 span
+{
+    font-size: 26px;
+    color: #9beefb;
+}
+.wrapper p span
+{
+    color: #9beefb;
+    font-size: 25px;
+}
